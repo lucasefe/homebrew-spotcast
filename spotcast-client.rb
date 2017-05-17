@@ -2,7 +2,7 @@ require "formula"
 
 class SpotcastClient < Formula
   homepage "https://github.com/lucasefe/spotcast#readme"
-  url "https://github.com/lucasefe/spotcast/releases/download/v0.0.2/spotcast-client-darwin-amd64.tar.gz"
+  url "https://github.com/lucasefe/spotcast/releases/download/v0.0.3/spotcast-client-darwin-amd64.tar.gz"
 
   def install
     bin.install "spotcast-client" => "spotcast-client"
